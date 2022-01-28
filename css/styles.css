@@ -49,7 +49,7 @@ a {
   padding-right: 15px;
   margin: 0 auto;
 
-  /*outline: 1px solid red;*/
+  outline: 1px solid red;
 }
 
 .section {
@@ -164,7 +164,10 @@ ul {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
-
+.contact-item:hover,
+.contact-item:focus {
+  color: var(--accent-color);
+}
 .mail-link:hover,
 .mail-link:focus {
   color: var(--accent-color);
@@ -179,9 +182,9 @@ ul {
   vertical-align: middle;
   fill: var(--main-text-color);
 }
-.contact-icon:hover,
-.contact-icon:focus {
-  fill: currentColor;
+.contacts-list:hover,
+.contacts-list:focus {
+  color: var(--accent-color);
 }
 .current {
   color: var(--accent-color);
@@ -529,9 +532,11 @@ ul {
   text-transform: uppercase;
 
   margin-bottom: 20px;
-  padding-top: 72px;
 
   color: var(--primary-title-color);
+}
+.network {
+  padding-top: 72px;
 }
 .footer-item {
   padding-bottom: 100px;
