@@ -49,7 +49,7 @@ a {
   padding-right: 15px;
   margin: 0 auto;
 
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
 }
 
 .section {
@@ -445,7 +445,7 @@ ul {
 .clietns-title {
   font-style: normal;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -524,51 +524,48 @@ ul {
   letter-spacing: 0.03em;
   color: var(--footer-link-color);
 }
-.footer-network {
+/*-----footer-social----*/
+
+.footer-social-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+
   text-transform: uppercase;
-
   margin-bottom: 20px;
-
   color: var(--primary-title-color);
 }
-.network {
-  padding-top: 72px;
-}
-.footer-item {
-  padding-bottom: 100px;
-}
 
-.footer-icon.link {
+.footer-icon .link {
   display: flex;
   width: 44px;
   height: 44px;
+
   border-radius: 50%;
   align-items: center;
+  justify-content: center;
+
   background-color: rgba(255, 255, 255, 0.1);
   color: var(--primary-title-color);
 }
-.footer-icons .footer-item + .footer-item {
-  margin-left: 10px;
-}
-.footer-icons {
-  display: flex;
-}
-.footer-container {
-  display: flex;
+.footer-social {
+  margin: 12px 0 0 70px;
+  padding-top: 72px;
 }
 .footer-icon {
   justify-content: center;
   fill: currentColor;
 }
-.network {
-  margin: 12px 0 0 70px;
+.footer-social-icons .footer-social-logo + .footer-social-logo {
+  margin-left: 10px;
 }
-.footer-icon.link:hover,
-.footer-icon.link:focus {
+.footer-social-icons {
+  display: flex;
+}
+
+.footer-icon .link:hover,
+.footer-icon .link:focus {
   background-color: var(--accent-color);
 }
 /*--------------------PORTFOLIO----------------------*/
