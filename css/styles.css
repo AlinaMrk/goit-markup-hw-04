@@ -214,8 +214,10 @@ ul {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2f303a;
+  background-image: url('../images/overlay.jpg');
+}
 
-  /*max-width: 1600px;
+/*max-width: 1600px;
   min-height: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -226,8 +228,8 @@ ul {
   url('../images/overlay.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;*/
-}
+  background-size: cover;
+}*/
 
 .hero-title {
   font-weight: 900;
