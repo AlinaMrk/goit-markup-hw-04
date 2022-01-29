@@ -549,6 +549,14 @@ ul {
   background-color: rgba(255, 255, 255, 0.1);
   color: var(--primary-title-color);
 }
+.footer-icon .link:hover,
+.footer-icon .link:focus {
+  background-color: var(--accent-color);
+}
+
+.page-footer .container {
+  display: flex;
+}
 .footer-social {
   margin: 12px 0 0 70px;
   padding-top: 72px;
@@ -562,11 +570,6 @@ ul {
 }
 .footer-social-icons {
   display: flex;
-}
-
-.footer-icon .link:hover,
-.footer-icon .link:focus {
-  background-color: var(--accent-color);
 }
 /*--------------------PORTFOLIO----------------------*/
 /*button-portfolio*/
