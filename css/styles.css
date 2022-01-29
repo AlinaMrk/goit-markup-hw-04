@@ -145,8 +145,37 @@ ul {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 
-.mail-link {
+  margin-right: 30px;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.contacts .link .envelope-icon,
+.contacts .link .smartphone-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+.contacts .item .link {
+  display: flex;
+  align-items: center;
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+.envelope-icon .smartphone-icon {
+  margin-right: 10px;
+  vertical-align: middle;
+  fill: var(--main-text-color);
+}
+.navigation .link:hover {
+  color: var(--accent-color);
+}
+/*mail-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -154,41 +183,30 @@ ul {
 
   color: var(--main-text-color);
   margin-right: 30px;
-}
+}*/
 
-.tel-link {
+/*.tel-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-}
-.contact-item:hover,
+}*/
+/*.contact-item:hover,
 .contact-item:focus {
   color: var(--accent-color);
-}
-.mail-link:hover,
+}*/
+
+/*.mail-link:hover,
 .mail-link:focus {
   color: var(--accent-color);
-}
+}*/
 
-.tel-link:hover,
+/*.tel-link:hover,
 .tel-link:focus {
   color: var(--accent-color);
-}
-.contact-icon {
-  margin-right: 10px;
-  vertical-align: middle;
-  fill: var(--main-text-color);
-}
-.contacts-list:hover,
-.contacts-list:focus {
-  color: var(--accent-color);
-}
-.current {
-  color: var(--accent-color);
-}
+}*/
 
 /*-------------------------------MAIN---------------------------*/
 /*---section-hero---*/
@@ -399,6 +417,7 @@ ul {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+/*----social----*/
 .social-list {
   display: flex;
   justify-content: center;
@@ -415,7 +434,7 @@ ul {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  /*background-color: #ffffff;*/
+  background-color: #ffffff;
   color: var(--icons-color);
 }
 
@@ -425,11 +444,11 @@ ul {
 
 .social-link:hover,
 .social-link:focus {
-  /*color: #ffffff;*/
+  color: #ffffff;
   background-color: var(--accent-color);
 }
 
-/*clients*/
+/*-----clients----*/
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -464,13 +483,18 @@ ul {
 .client-icon {
   fill: currentColor;
 }
+
 .client-link:hover,
 .client-link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
-/*----------------------------FOOTER---------------------------*/
 
+/*----------------------------FOOTER---------------------------*/
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
 .page-footer {
   padding-top: 60px;
   padding-bottom: 20px;
@@ -526,50 +550,44 @@ ul {
 }
 /*-----footer-social----*/
 
-.footer-social-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-
+.network {
   text-transform: uppercase;
-  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 1.14;
   color: var(--primary-title-color);
+  margin-bottom: 20px;
 }
-
-.footer-icon .link {
+.footer-icon.link {
   display: flex;
   width: 44px;
   height: 44px;
-
   border-radius: 50%;
   align-items: center;
-  justify-content: center;
-
   background-color: rgba(255, 255, 255, 0.1);
   color: var(--primary-title-color);
-}
-.footer-icon .link:hover,
-.footer-icon .link:focus {
-  background-color: var(--accent-color);
-}
-
-.page-footer .container {
-  display: flex;
-}
-.footer-social {
-  margin: 12px 0 0 70px;
-  padding-top: 72px;
 }
 .footer-icon {
   justify-content: center;
   fill: currentColor;
 }
-.footer-social-icons .footer-social-logo + .footer-social-logo {
+/*.footer-icons .logo-item + .logo-item {
   margin-left: 10px;
-}
-.footer-social-icons {
+}*/
+
+.footer-icons {
   display: flex;
+}
+
+.footer .container {
+  display: flex;
+}
+
+.footer-social {
+  margin: 12px 0 0 70px;
+}
+.footer-icon.link:hover,
+.footer-icon.link:focus {
+  background-color: var(--accent-color);
 }
 /*--------------------PORTFOLIO----------------------*/
 /*button-portfolio*/
