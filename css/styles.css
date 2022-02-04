@@ -589,9 +589,13 @@ ul {
   padding: 6px 22px;
   min-width: 73px;
 
-  cursor: pointer;
-  background-color: #f5f4fa;
+  width: 130px;
+  height: 38px;
   border-radius: 4px;
+  background-color: #f5f4fa;
+
+  cursor: pointer;
+
   color: var(--header-text-color);
 }
 .button.secondary:hover,
